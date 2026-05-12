@@ -71,4 +71,10 @@ def ejecutar_sistema():
     print(f"Operaciones exitosas: {len(registro_exitoso)} / {len(operaciones)}")
 
 if __name__ == "__main__":
-    ejecutar_sistema()
+    root = tk.TK()
+    app = LoginScreen(root) # clase principal
+    root.mainloop()
+
+        ejecutar_sistema()
+
+
